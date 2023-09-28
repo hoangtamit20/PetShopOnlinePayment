@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF3943C0-83E9-4319-B220-1D6F542DA406}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pre", "pre", "{88BB2DF5-3BAA-49E7-844C-CFF7A21AA135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetShop.Api", "src\pre\PetShop.Api\PetShop.Api.csproj", "{F8378F6B-E292-4183-BE20-DA80F3A04F9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8378F6B-E292-4183-BE20-DA80F3A04F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8378F6B-E292-4183-BE20-DA80F3A04F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8378F6B-E292-4183-BE20-DA80F3A04F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8378F6B-E292-4183-BE20-DA80F3A04F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88BB2DF5-3BAA-49E7-844C-CFF7A21AA135} = {EF3943C0-83E9-4319-B220-1D6F542DA406}
+		{F8378F6B-E292-4183-BE20-DA80F3A04F9D} = {88BB2DF5-3BAA-49E7-844C-CFF7A21AA135}
+	EndGlobalSection
+EndGlobal
